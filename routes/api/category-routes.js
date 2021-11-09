@@ -27,7 +27,6 @@ router.get('/:id', (req, res) => {
             include: [
                 {
                     model: Product,
-                    through: category_id
                 }
             ]
         })
