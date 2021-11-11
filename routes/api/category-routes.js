@@ -2,13 +2,13 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 
-router.get('*', (req, res, category_id) => {
+router.get('/',  async(req, res, category_id) => {
     try {
-        const categoryData = Category.findAll({
+        const categoryData = await Category.findAll({
             include: [
                 {
                     model: Product,
-                    through: category_id
+                    // through: category_id
                 }
             ]
         })
@@ -16,9 +16,9 @@ router.get('*', (req, res, category_id) => {
     } catch (err){res.json(err)}
 });
 
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
     try {
-        const categoryData = Category.findOne({
+        const categoryData = await Category.findOne({
             include: [
                 {
                     model: Product,
