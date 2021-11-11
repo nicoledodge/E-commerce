@@ -1,15 +1,17 @@
 # E-commerce
 Backend application using express.js API, mySQL, and Insomnia.
 
-## Mock-up
-products
-https://drive.google.com/file/d/1lPNNsmCmYd7Tu5ayy1V4G3PnfJcuanuJ/view
-category
-https://drive.google.com/file/d/10w3fiTtnruDj1nJfszQ4KxWkAkGNmGiy/view
-tags
-https://drive.google.com/file/d/11dFNkin6I9hK-xSez9qJjWiHfEdsp1_6/view
-  
-![Team Profile Demo](https://drive.google.com/file/d/11dFNkin6I9hK-xSez9qJjWiHfEdsp1_6/view)
+## Insomnia Demo w/videos
+#### Products Demo
+![Products Demo](https://github.com/nicoledodge/E-commerce/blob/main/assets/products%20gif.gif?raw=true)
+[Link to Video Walk-Through](https://drive.google.com/file/d/1lPNNsmCmYd7Tu5ayy1V4G3PnfJcuanuJ/view)  
+#### Category Demo
+![Category Demo](https://github.com/nicoledodge/E-commerce/blob/main/assets/products%20gif.gif?raw=true)
+[Link to Video Walk-Through](https://drive.google.com/file/d/10w3fiTtnruDj1nJfszQ4KxWkAkGNmGiy/view)
+#### Tags Demo
+![Category Demo](https://github.com/nicoledodge/E-commerce/blob/main/assets/products%20gif.gif?raw=true)
+[Link to Video Walk-Through](https://drive.google.com/file/d/11dFNkin6I9hK-xSez9qJjWiHfEdsp1_6/view)
+
 ## Licenses
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents:
